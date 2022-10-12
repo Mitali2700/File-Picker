@@ -98,6 +98,14 @@ section .details span{
     justify-content: space-between;
 } 
 
+.progress-area .progress-bar{
+    height: 6px;
+    width: 100px;
+    background: #fff;
+    margin-bottom: 4px;
+
+}
+
 .uploaded-area .row .content{
     display: flex;
    
@@ -111,9 +119,11 @@ section .details span{
     text-align: center;
 }
 
-/* .uploaded-area .fa-check{
+ .uploaded-area .fa-check{
     display: flex;
-}  */
+}  
+
+/*************************Mobile Screen **************************/
 
 @media (max-width: 850px) {
     h1{
