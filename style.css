@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+   
     font-family: "Poppins", sans-serif;
 }
 
@@ -96,13 +96,13 @@ section .details span{
 .progress-area .details{
     display: flex;
     align-items: center;
+    margin-bottom: 4px;
     justify-content: space-between;
 } 
 
 .progress-area .progress-bar{
     height: 6px;
     width: 100px;
-    background: #fff;
     margin-bottom: 4px;
     border-radius: 30px;
 
@@ -110,7 +110,7 @@ section .details span{
 
 .progress-bar .progress{
     height: 100%;
-    width: 50%;
+    width: 0%;
     background: #2c3b62;
     border-radius: inherit;
 }
@@ -127,7 +127,7 @@ section .details span{
 .uploaded-area .row .content{
     display: flex;
    
-    text-align: center;
+    align-items: center;
 }
 
 .uploaded-area .row .detials{
